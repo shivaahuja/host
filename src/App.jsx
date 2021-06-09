@@ -7,12 +7,10 @@ import Fahrkosten  from './Fahrkosten';
 const App = () => {
     return(
         <div>
-            <HashRouter>
-                <Switch>
-                    <Route exact path="/" component={Fahrkosten} />
+          
+                    <Fahrkosten />
      
-                </Switch>
-            </HashRouter>
+           
         </div>
     )
 }
